@@ -12,7 +12,7 @@ pipeline {
 	         	sh './gradlew assembleProd
 	         	sh './gradlew testProdDebugUnitTest'
 	        }
-	     }
+	     }''
 	} 	
 	
 	
