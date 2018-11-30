@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "133006728820",
+    "firebase_url": "https://unittesing.firebaseio.com",
+    "project_id": "unittesing",
+    "storage_bucket": "unittesing.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:133006728820:android:8970a7d10282f5aa",
+        "android_client_info": {
+          "package_name": "com.tw.test.androidunittesting"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "133006728820-qnuseltn21jl91q2blr37ldt88oi6esc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnRr5ElOOiDE04PwAOEa1MKQqzwEo2Mu8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -8,6 +8,7 @@ buildscript {
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.1.4'
+        classpath 'com.google.gms:google-services:4.0.1'
         
 
         // NOTE: Do not place your application dependencies here; they belong
@@ -24,4 +25,10 @@ allprojects {
 
 task clean(type: Delete) {
     delete rootProject.buildDir
+}
+
+ext{
+    mockitoVersion = '1.10.19'
+    supportLibraryVersion = '27.1.1'
+    guavaVersion = '18.0'
 }

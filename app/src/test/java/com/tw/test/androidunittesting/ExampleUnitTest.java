@@ -1,5 +1,7 @@
 package com.tw.test.androidunittesting;
 
+import com.tw.test.androidunittesting.payment.ActPayment;
+
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -17,6 +19,7 @@ public class ExampleUnitTest {
 
     @Test
     public void checkSum(){
-        assertEquals(8,MainActivity.getSum(5,3));
+//        assertEquals(9, ActPayment.getSum(5,3));
+        assertEquals(8, ActPayment.getSum(5,3));
     }
 }
