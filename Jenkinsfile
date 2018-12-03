@@ -1,10 +1,10 @@
 pipeline {
   agent {
-    kubernetes {
-      label 'android-unittest-jenkins'
-    }
+  //  kubernetes {
+    //  label 'android-unittest-jenkins'
+    //}
   }  
-  stages {  ''
+  stages {
 	stage("Unit Test") {
 	    steps {
 	        container('gradle') {
