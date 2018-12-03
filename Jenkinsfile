@@ -5,14 +5,14 @@ pipeline {
     }
   }  
   stages {  ''
-	stage("Unit Test") {''
+	stage("Unit Test") {
 	    steps {
 	        container('gradle') {
 	         sh 'chmod -R o+xw ./'
 	         	sh './gradlew assembleProd'
 	         	sh './gradlew testProdDebugUnitTest'
 	        }
-	     }''
+	     }
 	} 	
   }
 }
