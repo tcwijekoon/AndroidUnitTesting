@@ -20,6 +20,6 @@ public class ExampleUnitTest {
     @Test
     public void checkSum(){
 //        assertEquals(9, ActPayment.getSum(5,3));
-        assertEquals(9, ActPayment.getSum(5,3));
+        assertEquals(8, ActPayment.getSum(5,3));
     }
 }
