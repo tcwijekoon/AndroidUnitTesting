@@ -1,8 +1,8 @@
 pipeline {
   agent {
-   // label {
+    kubernetes {
       label 'android-unittest-jenkins'
-  //  }
+    }
   }
   stages {
 	stage("build") {
