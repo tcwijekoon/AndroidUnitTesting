@@ -1,9 +1,10 @@
 pipeline {
-  agent {
-    none {
-      label 'android-unittest-jenkins'
-    }
-  }
+  agent  none
+ // {
+ //   none {
+ //     label 'android-unittest-jenkins'
+ //   }
+  //}
   stages {
 	stage("build") {
 	    steps {
