@@ -5,13 +5,12 @@ pipeline {
     }
   }
   stages {
-
-	stage("Unit Test") {
-    	    steps {
-    	        container('gradle') {
-    	         	sh './gradlew testProdDebugUnitTest'
-    	        }
-    	     }
-    	}
+	stage("build") {
+	    steps {
+	        container('gradle') {
+	         	sh './gradlew assembleProd'
+	        }
+	     }
+	}
   }
 }
