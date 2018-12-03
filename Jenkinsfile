@@ -1,6 +1,6 @@
 pipeline {
   agent {
-    kubernetes {
+    label {
       label 'android-unittest-jenkins'
     }
   }
