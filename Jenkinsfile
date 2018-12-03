@@ -1,6 +1,6 @@
 pipeline {
   agent {
-    none {
+    kubernetes {
       label 'android-unittest-jenkins'
     }
   }
@@ -12,5 +12,12 @@ pipeline {
 	        }
 	     }
 	}
+	stage("Unit Test") {
+        steps {
+            container('gradle') {
+                sh './gradlew testProdDebugUnitTest'
+            }
+         }
+    }
   }
 }
