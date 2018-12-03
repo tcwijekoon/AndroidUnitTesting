@@ -11,7 +11,7 @@ pipeline {
 	         	sh './gradlew assembleProd'
 	        }
 	     }
-	},
+	}
 	stage("Unit Test") {
     	    steps {
     	        container('gradle') {
