@@ -4,7 +4,7 @@ pipeline {
       label 'android-unittest-jenkins'
     }
   }  
-  stages {  
+  stages {  ''
 	stage("Unit Test") {''
 	    steps {
 	        container('gradle') {
@@ -14,11 +14,5 @@ pipeline {
 	        }
 	     }''
 	} 	
-	
-	
-
-	 
-    
-
   }
 }
